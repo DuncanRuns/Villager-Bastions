@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "villager-bastions",
+  "version": "${version}",
+  "name": "Villager Bastions",
+  "description": "Changes bastions to contain villagers",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/villager-bastions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.villagerbastions.VillagerBastions"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "villager-bastions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0"
+  }
+}
